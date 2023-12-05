@@ -8,4 +8,7 @@ The dataset for the project is listed in the data folder. Data exploration inclu
 
 ## Fairlearn 
 
-This folder holds all four models. Each model contains fairness metrics before and after bias mitigation.  
+This folder holds all four models. Each model contains fairness metrics before and after bias mitigation. The bias reduction techniques include demographic parity and equalized odds for all models, and each are compared with accuracy, precision, recall, f1 score, and selection rate. 
+
+### Citations 
+[1] fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved December 5 from https://www.kaggle.com/fedesoriano/heart-failure-prediction. 
