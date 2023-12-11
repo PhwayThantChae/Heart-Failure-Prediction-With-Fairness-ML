@@ -8,11 +8,35 @@ This folder holds all three models -- logistic regression, svm, and random fores
 
 ## Data and Data Exploration 
 
-The dataset for the project is listed in the data folder. Data exploration include graphs analyzing the distribution between men and women in all the features. Additionally, a rudimentary analysis of the dataset with Fairlearn was also performed in the Data_yl.ipynb file. 
+The dataset for the project is listed in the data folder. Data exploration include graphs analyzing the distribution between men and women in all the features. Additionally, a rudimentary analysis of the dataset with Fairlearn was also performed in the `Data_yl.ipynb` file. 
 
 ## Feature Importances 
 
-To identify which features were most important in the dataset, lasso and ridge regression was performed in the Feature_Importances_Heart_Disease.ipynb. Feature importances were also extracted from a decision tree and random forest model in Feature_Importances_Random_Forest_Decision_Tree.ipynb. 
+To identify which features were most important in the dataset, lasso and ridge regression was performed in the `Feature_Importances_Heart_Disease.ipynb`. Feature importances were also extracted from a decision tree and random forest model in `Feature_Importances_Random_Forest_Decision_Tree.ipynb`. 
+
+## Installation
+
+Ensure you have Anaconda or Miniconda installed to manage the project environment and dependencies. If not, download Anaconda from [Anaconda's official website](https://www.anaconda.com/products/distribution) or Miniconda from [Miniconda's official website](https://docs.conda.io/en/latest/miniconda.html).
+
+### Setting up a Conda Environment
+
+Create and activate a Conda environment to manage the project dependencies separately:
+
+```bash
+# Create a Conda environment named 'heart_failure_env' with Python 3.9.7
+conda create -n heart_failure_env python=3.9.7
+
+# Activate the Conda environment
+conda activate heart_failure_env
+```
+
+### Installing Required Packages
+
+Install the necessary Python packages within the Conda environment:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn plotly fairlearn
+```
 
 ### Citations 
 [1] fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved December 5 from https://www.kaggle.com/fedesoriano/heart-failure-prediction. 
