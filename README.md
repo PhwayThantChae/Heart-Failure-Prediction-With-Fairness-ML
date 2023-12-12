@@ -16,7 +16,7 @@ To identify which features were most important in the dataset, lasso and ridge r
 
 ## Final Paper 
 
-The final paper is the file: Final Paper -- Fairness in Heart Disease.pdf. All the citations for this project are included at the end of the paper. 
+The final paper is the file: `Final Paper -- Fairness in Heart Disease.pdf`. All the citations for this project are included at the end of the paper. 
 
 ## Installation
 
