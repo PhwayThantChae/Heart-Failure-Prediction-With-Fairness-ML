@@ -14,6 +14,10 @@ The dataset for the project is listed in the data folder. Data exploration inclu
 
 To identify which features were most important in the dataset, lasso and ridge regression was performed in the `Feature_Importances_Heart_Disease.ipynb`. Feature importances were also extracted from a decision tree and random forest model in `Feature_Importances_Random_Forest_Decision_Tree.ipynb`. 
 
+## Final Paper 
+
+The final paper is the PDF file "Fairness in Heart Disease." All the citations for this project are included at the end of the paper. 
+
 ## Installation
 
 Ensure you have Anaconda or Miniconda installed to manage the project environment and dependencies. If not, download Anaconda from [Anaconda's official website](https://www.anaconda.com/products/distribution) or Miniconda from [Miniconda's official website](https://docs.conda.io/en/latest/miniconda.html).
@@ -37,6 +41,3 @@ Install the necessary Python packages within the Conda environment:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn plotly fairlearn
 ```
-
-### Citations 
-[1] fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved December 5 from https://www.kaggle.com/fedesoriano/heart-failure-prediction. 
